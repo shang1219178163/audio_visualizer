@@ -7,6 +7,15 @@ import 'package:flutter/services.dart';
 
 import 'fft.dart';
 
+export 'utils.dart';
+export 'fft.dart';
+export 'visualizers/audio_spectrum.dart';
+export 'visualizers/bar_visualizer.dart';
+export 'visualizers/circular_bar_visualizer.dart';
+export 'visualizers/line_bar_visualizer.dart';
+export 'visualizers/multi_wave_visualizer.dart';
+export 'visualizers/rainbow_visualizer.dart';
+
 const kUpdateInterval = Duration(milliseconds: 250);
 
 enum PlayerStatus {
