@@ -5,7 +5,7 @@ description: "Demonstrates how to use the audio_visualizer plugin."
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.3.4
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -16,8 +16,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  record: ^5.2.0
-  path_provider: ^2.1.5
+  record: ^5.1.2
+  path_provider: ^2.1.4
   http: ^1.2.2
 
   audio_visualizer:
